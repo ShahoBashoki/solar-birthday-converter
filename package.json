@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "dotenv": "^16.3.2"
+  },
+  "devDependencies": {
+    "chrome-env": "^0.1.0",
+    "dotenv-webpack": "^8.0.1"
+  }
+}

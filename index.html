@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: #f2f2f2;
+        color: #333;
+      }
+
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 300px;
+      }
+
+      button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        background: #4caf50;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background: #3e8e41;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <button id="convert_birthday">Convert Birthday</button>
+
+      <pre id="content"></pre>
+
+      <script src="convert_birthday.js" type="text/javascript"></script>
+      <script src="env.js" type="text/javascript"></script>
+    </div>
+  </body>
+</html>
