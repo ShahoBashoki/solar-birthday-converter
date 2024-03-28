@@ -1,0 +1,20 @@
+{
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "solar_birthday_converter.png"
+  },
+  "description": "Base Level Extension",
+  "manifest_version": 3,
+  "name": "Solid Birthday Converter",
+  "oauth2": {
+    "client_id": "879273060194-e0l3qg3s8r3cde2p18svbj8coj02jjjm.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/calendar",
+      "https://www.googleapis.com/auth/contacts.readonly"
+    ]
+  },
+  "permissions": [
+    "identity"
+  ],
+  "version": "1.0"
+}
